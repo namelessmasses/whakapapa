@@ -198,15 +198,15 @@ graph Ina_te_whakapapa_hei_whakamarama {
     Mahaki_2_row -- Tupore_row;
     Tupore_row -- Rahuiokehu_1_row;
 
-    Rakaihoea_row -- Paku_row[minlen=4];
+    Rakaihoea_row -- Puku_row[minlen=4];
 
-    Paku_row [shape=point, label=""];
-    Paku [label="Paku (m)"];
-    Paku_row -- Paku;
+    Puku_row [shape=point, label=""];
+    Puku [label="Puku (m)"];
+    Puku_row -- Puku;
 
     Tauatiraroa;
 
-    Paku -- Tauatiraroa [penwidth=3];
+    Puku -- Tauatiraroa [penwidth=3];
 
-    { rank=same; Paku_row, Paku, Tauatiraroa };
+    { rank=same; Puku_row, Puku, Tauatiraroa };
 }
