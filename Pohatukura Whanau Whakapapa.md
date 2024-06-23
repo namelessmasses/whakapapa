@@ -11,6 +11,7 @@ Some whitespace differences may be present for readability.
 Otherwise punctuation, spelling, and grammar are maintained from the original.
 
 A copy of the original document containing markup of content with questionable legibility can be found at:
+https://1drv.ms/b/s!AgZNKs20CYWWgfBPtlm-3h3kL92GdQ?e=sfbWdo
 
 # Pohatakura Whanau Whakapapa - 30th August to 1st September 1991 Hui
 
