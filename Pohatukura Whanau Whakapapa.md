@@ -167,6 +167,11 @@ Ina te whakapapa hei whakamarama:-
 
 Ka marama i konei ko Roro me tona ope no Ngatiira tetahi taha nui, no Turanga tetahi taha nui. Ko to ratau taha nui ki Waiapu nei kei a Rakaimataura. Ko Te Aningaiao te wahine a Roro na Te Aomihia a Ngatihau raua ko Kahupakari a Materoa. Ka tae mai a Roro ma ki Waiapu nei ka noho i te pa i Koputerehu. Ka whanau te tamaiiti a Te Hukui. Ka tae te rongo kia Ngatiira ka whakatika mai a Ngatiira ka haramai a Ngatiira a ka tutuki mai ki a Roro me the Kaihinu. Ko etahi korero ko te Kaihinu nei i tu ki rawahi o Waiapu ki Turitaka,  i reira te pa o Roro. Ko Matohuarau te ingoa o te whare o Roro, i whakawharonatia ai taua Kaihinu.
 
+## Notable Addition
+
+- Te Kauru Taki o te Rangi - see https://nzhistory.govt.nz/politics/treaty/signatory/9-33
+- Rakaimataura was the daughter of Tamataua, a descendant of Porourangi. https://www.geni.com/people/Rākairoa-I/6000000085707077964 “Te Aokairau married Tamataua who was a descendant of Rongomaia-niwaniwa, the only daughter of Porourangi. Their children included Hinepare, Huanga, Putaanga and Rākaimataura…”
+
 # 5a
 
 Ka taha mai a Ngatiira tera ka kitea e Rangirakaikura i tona pa i Pohatukura (kei runga ake o Kaharau). I haramai tonu hoki te ope ma Orurur ka maro tone ake ma raro i tona pa, kaore i peka. Ka pa te kino kia Rangirakaikura, mo te hakeretanga i nga hinu i a ia. Ka whakatakoto ia i tona khakaaro mo te hokinga atu o te ope ra i Waiapu nei. Ka hangaia e ia tona wharau, ka tapa te ingoa ko Tapaturauaruhe - he mea tapatu ki te rauaruhe kia wawe te kopi a runga, kaore i taea te uhi ki te toetoe. Kei waho mai o Oruru taua wharau kei te takiwa ki Otakehia. Ka whakamanuhiritia a Ngatiira i roto i te wharau ra - no te atapo ka patua, ka whati te iwi ra, ka patua haeretia. Na nga morehu i kawe te korero ki muri.
