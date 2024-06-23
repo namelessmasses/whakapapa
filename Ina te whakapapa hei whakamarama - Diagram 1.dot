@@ -156,4 +156,44 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; Roro_row, Roro, TeAningaiao };
 
+    TeKakara -- Mahaki_1 [style=invis,minlen=2];
+
+    Mahaki_1 -- Roro [style=invis];
+
+    Rakaihoea_row [shape=point, label=""];
+    Roro_row -- Rakaihoea_row;
+    Rakaihoea [label="Rakaihoea (m)"];
+
+    Rakaihoea_Rongomaiirikura [shape=point, label=""];
+
+    Rongomaiirikura [label="Rongomaiirikura (no Turanga)"];
+    Rakaihoea_row -- Rakaihoea -- Rakaihoea_Rongomaiirikura -- Rongomaiirikura;
+
+    { rank=same; Rakaihoea_row, Rakaihoea, Rakaihoea_Rongomaiirikura, Rongomaiirikura };
+
+    Mahaki_2 [label="Mahaki"];
+    Tupore;
+    Rahuiokehu;
+
+    Rakaihoea_Rongomaiirikura -- Mahaki_2;
+    Rakaihoea_Rongomaiirikura -- Tupore;
+    Rakaihoea_Rongomaiirikura -- Rahuiokehu;
+
+    { rank=same; Mahaki_2, Tupore, Rahuiokehu };
+
+    Paku_row [shape=point, label=""];
+
+    Rakaihoea -- Mahaki_2 [style=invis];
+
+    Rakaihoea_row -- Paku_row[weight=10];
+
+    Paku [label="Paku (m)"];
+    Paku_row -- Paku;
+    Mahaki_2 -- Paku [style=invis];
+
+    Tauatiraroa;
+
+    Paku -- Tauatiraroa [  ];
+
+    { rank=same; Paku_row, Paku, Tauatiraroa };
 }
