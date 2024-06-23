@@ -1,0 +1,243 @@
+graph page7a {
+    node [shape=plaintext];
+
+    Te_Kauru_Taki_o_te_Rangi [label="Te Kauru Taki o te Rangi"];
+    TeKauruTaki_Muiora [shape=point, label=""];
+    Muiora;
+    Te_Kauru_Taki_o_te_Rangi -- TeKauruTaki_Muiora -- Muiora [penwidth=3];
+    { rank=same; Te_Kauru_Taki_o_te_Rangi; TeKauruTaki_Muiora; Muiora; }
+
+    Raenawe_row [shape=point, label=""];
+    Raenawe;
+    Raenawe_row -- Raenawe;
+    { rank=same; Raenawe_row; Raenawe; }
+
+    Te_Kauru_Taki_o_te_Rangi -- Raenawe_row;
+
+    TeKaiwi_row [shape=point, label=""];
+    TeKaiwi [label="Te Kaiwi"];
+    TeKaiwi_row -- TeKaiwi;
+    { rank=same; TeKaiwi_row; TeKaiwi; }
+
+    Raenawe_row -- TeKaiwi_row;
+
+    WikitoriaHinekukurangi [label="Wikitoria Hinekukurangi"];
+    TeKaiwi_WikitoriaHinekukurangi [shape=point, label=""]
+    TeKaiwi -- TeKaiwi_WikitoriaHinekukurangi -- WikitoriaHinekukurangi [penwidth=3];
+    { rank=same; TeKaiwi; TeKaiwi_WikitoriaHinekukurangi; WikitoriaHinekukurangi; }
+
+    MananaKauateRangi_row [shape=point, label=""];
+    MananaKauateRangi [label="Manana Kaua te Rangi"];
+    MananaKauateRangi_row -- MananaKauateRangi;
+    { rank=same; MananaKauateRangi_row; MananaKauateRangi; }
+
+    TeKaiwi_WikitoriaHinekukurangi -- MananaKauateRangi_row;
+
+    TuruhiraHineiwhakina [label="Turuhira Hine i whakina"];
+    MananaKauateRangi_TuruhiraHineiwhakina [shape=point, label=""];
+    MananaKauateRangi -- MananaKauateRangi_TuruhiraHineiwhakina -- TuruhiraHineiwhakina [penwidth=3];
+    { rank=same; MananaKauateRangi; MananaKauateRangi_TuruhiraHineiwhakina; TuruhiraHineiwhakina; }
+
+    HamioraTeMorehu_row [shape=point, label=""];
+    HamioraTeMorehu [label="Hamiora Te Morehu"];
+    HamioraTeMorehu_row -- HamioraTeMorehu;
+    { rank=same; HamioraTeMorehu_row; HamioraTeMorehu; }
+    MananaKauateRangi_TuruhiraHineiwhakina -- HamioraTeMorehu_row;    
+    HeniNgahuiaHerewaka [label="Heni Ngahuia Herewaka"];
+    
+    HamioraTeMorehu_HeniNgahuiaHerewaka [shape=point, label=""];
+    HamioraTeMorehu -- HamioraTeMorehu_HeniNgahuiaHerewaka -- HeniNgahuiaHerewaka [penwidth=3];
+    { rank=same; HamioraTeMorehu; HamioraTeMorehu_HeniNgahuiaHerewaka; HeniNgahuiaHerewaka; }
+
+    TainaTutaNgarimu [label="Taina/Tuta Ngarimu"];
+    MakereRairi [label="Makere Rairi"];
+    TainaTutaNgarimu -- MakereRairi [penwidth=3];
+    { rank=same; TainaTutaNgarimu; MakereRairi; }
+
+    HamioraTeMorehu_HeniNgahuiaHerewaka -- TainaTutaNgarimu;
+
+    WiAroaro_row [shape=point, label=""];
+    WiAroaro [label="Wi Aroaro"];
+    WiAroaro_row -- WiAroaro;
+    { rank=same; WiAroaro_row; WiAroaro; }
+
+    MananaKauateRangi_row -- WiAroaro_row[minlen=4];
+
+    AniPonhaua [label="Ani Ponhaua"];
+    WiAroaro_AniPonhaua [shape=point, label=""];
+    WiAroaro -- WiAroaro_AniPonhaua -- AniPonhaua [penwidth=3];
+    { rank=same; WiAroaro; WiAroaro_AniPonhaua; AniPonhaua; }
+
+    HekieraTuterangi_row [shape=point, label=""];
+    HekieraTuterangi [label="Hekiera Tuterangi"];
+    HekieraTuterangi_row -- HekieraTuterangi;
+    { rank=same; HekieraTuterangi_row; HekieraTuterangi; }
+
+    WiAroaro_AniPonhaua -- HekieraTuterangi_row;
+
+    Waikapakapa_row [shape=point, label=""];
+    Waikapakapa [label="Waikapakapa"];
+    Waikapakapa_row -- Waikapakapa;
+    { rank=same; Waikapakapa_row; Waikapakapa; }
+
+    WiAroaro_row -- Waikapakapa_row[minlen=2];
+
+    AperahamaPatutahi [label="Aperahama Patutahi (T.1)"];
+    Waikapakapa_AperahamaPatutahi_marriage_branch [shape=point, label=""];
+    { rank=same; Waikapakapa; Waikapakapa_AperahamaPatutahi_marriage_branch;}
+    Waikapakapa_AperahamaPatutahi_marriage [shape=point, label=""];
+    Waikapakapa_AperahamaPatutahi [shape=point, label=""];
+    Waikapakapa -- Waikapakapa_AperahamaPatutahi_marriage_branch[penwidth=3];
+    Waikapakapa_AperahamaPatutahi_marriage_branch -- Waikapakapa_AperahamaPatutahi_marriage[penwidth=3,weight=10];
+    Waikapakapa_AperahamaPatutahi_marriage -- Waikapakapa_AperahamaPatutahi -- AperahamaPatutahi [penwidth=3];
+
+    AnaruTeKahaki [label="Anaru Te Kahaki"];
+    Waikapakapa_AperahamaPatutahi -- AnaruTeKahaki;
+
+    AnaruTeKahaki_Meri [shape=point, label=""];
+    Meri [label="Meri"];
+    AnaruTeKahaki -- AnaruTeKahaki_Meri -- Meri [penwidth=3];
+    { rank=same; AnaruTeKahaki; AnaruTeKahaki_Meri; Meri; }
+
+    Kaika_1 [label="Kaika"];
+    Waikapakapa_Kaika -- Kaika_1;
+
+    Kahaki_row [shape=point, label=""];
+    Kahaki;
+    Kahaki_row -- Kahaki;
+    { rank=same; Kahaki_row; Kahaki; }
+    AnaruTeKahaki_Meri -- Kahaki_row;
+
+    Poananga_row [shape=point, label=""];
+    Poananga;
+    Poananga_row -- Poananga;
+    { rank=same; Poananga_row; Poananga; }
+    Kahaki_row -- Poananga_row;
+
+    Aspinall_row [shape=point, label=""];
+    Aspinall;
+    Aspinall_row -- Aspinall;
+    { rank=same; Aspinall_row; Aspinall; }
+    Poananga_row -- Aspinall_row;
+
+    Paea_row [shape=point, label=""];
+    Paea;
+    Paea_row -- Paea;
+    { rank=same; Paea_row; Paea; }
+    Aspinall_row -- Paea_row;
+
+    Kaika_0 [label="Kaika (T.2)"];
+    Waikapakapa_Kaika [shape=point, label=""];
+    Waikapakapa_Kaika_marriage_branch [shape=point, label=""];
+    { rank=same; Waikapakapa; Waikapakapa_Kaika_marriage_branch; }
+
+    Waikapakapa_Kaika_marriage [shape=point, label=""];
+    Waikapakapa_AperahamaPatutahi_marriage_branch -- Waikapakapa_Kaika_marriage_branch[penwidth=3];
+    Waikapakapa_Kaika_marriage_branch -- Waikapakapa_Kaika_marriage[penwidth=3,weight=10];
+    Waikapakapa_Kaika_marriage -- Waikapakapa_Kaika -- Kaika_0 [penwidth=3];
+
+    { rank=same; Waikapakapa_AperahamaPatutahi_marriage; Waikapakapa_AperahamaPatutahi; AperahamaPatutahi; Waikapakapa_Kaika_marriage; Waikapakapa_Kaika; Kaika_0; }
+
+    HarataTuari_row [shape=point, label=""];
+    HarataTuari [label="Harata Tuari"];
+    HarataTuari_row -- HarataTuari;
+    { rank=same; HarataTuari_row; HarataTuari; }
+    Waikapakapa_row -- HarataTuari_row[minlen=7];
+
+    HarataTuari_WikiTauheke [shape=point, label=""];
+    WikiTauheke [label="Wiki Tauheke"];
+    HarataTuari -- HarataTuari_WikiTauheke -- WikiTauheke [penwidth=3];
+    { rank=same; HarataTuari; HarataTuari_WikiTauheke; WikiTauheke; }
+
+    HohiTauheke_row [shape=point, label=""];
+    HohiTauheke [label="Hohi Tauheke"];
+    HohiTauheke_row -- HohiTauheke;
+    { rank=same; HohiTauheke_row; HohiTauheke; }
+
+    HarataTuari_WikiTauheke -- HohiTauheke_row;
+
+    Ngatai_row [shape=point, label=""];
+    Ngatai;
+    Ngatai_row -- Ngatai;
+    { rank=same; Ngatai_row; Ngatai; }
+
+    HohiTauheke_row -- Ngatai_row;
+
+    Matiu_row [shape=point, label=""];
+    Matiu;
+    Matiu_row -- Matiu;
+    { rank=same; Matiu_row; Matiu; }
+
+    TeKaiwi_row -- Matiu_row[minlen=17];
+
+    Paranihi_row [shape=point, label=""];
+    Paranihi;
+    Paranihi_row -- Paranihi;
+    { rank=same; Paranihi_row; Paranihi; }
+
+    Matiu_row -- Paranihi_row;
+
+    Ihikara;
+    Paranihi_Ihikara [shape=point, label=""];
+    Paranihi -- Paranihi_Ihikara -- Ihikara [penwidth=3];
+    { rank=same; Paranihi; Paranihi_Ihikara; Ihikara; }
+
+    RiharaPaipa [label="Rihara Paipa"];
+
+    Paranihi_Ihikara -- RiharaPaipa;
+
+    RiwaiTuatara_row [shape=point, label=""];
+    RiwaiTuatara [label="Riwai Tuatara"];
+    RiwaiTuatara_row -- RiwaiTuatara;
+    { rank=same; RiwaiTuatara_row; RiwaiTuatara; }
+
+    Paranihi_row -- RiwaiTuatara_row[minlen=2];
+
+    Rawinia [label="Rawinia (W.1)"];
+    RiwaiTuatara_Rawinia_marriage_branch [shape=point, label=""];
+    { rank=same; RiwaiTuatara; RiwaiTuatara_Rawinia_marriage_branch; }
+    RiwaiTuatara_Rawinia_marriage [shape=point, label=""];
+    RiwaiTuatara_Rawinia [shape=point, label=""];
+    RiwaiTuatara -- RiwaiTuatara_Rawinia_marriage_branch[penwidth=3];
+    RiwaiTuatara_Rawinia_marriage_branch -- RiwaiTuatara_Rawinia_marriage[penwidth=3,weight=10];
+    RiwaiTuatara_Rawinia_marriage -- RiwaiTuatara_Rawinia -- Rawinia [penwidth=3];
+
+    TeRenia [label="Te Renia (W.2)"];
+    RiwaiTuatara_TeRenia_marriage_branch [shape=point, label=""];
+    { rank=same; RiwaiTuatara; RiwaiTuatara_TeRenia_marriage_branch; }
+    RiwaiTuatara_TeRenia_marriage [shape=point, label=""];
+    RiwaiTuatara_TeRenia [shape=point, label=""];
+    RiwaiTuatara_Rawinia_marriage_branch -- RiwaiTuatara_TeRenia_marriage_branch[penwidth=3];
+    RiwaiTuatara_TeRenia_marriage_branch -- RiwaiTuatara_TeRenia_marriage[penwidth=3,weight=10];
+    RiwaiTuatara_TeRenia_marriage -- RiwaiTuatara_TeRenia -- TeRenia [penwidth=3];
+
+    { rank=same; RiwaiTuatara_Rawinia_marriage; RiwaiTuatara_Rawinia; Rawinia; RiwaiTuatara_TeRenia_marriage; RiwaiTuatara_TeRenia; TeRenia; }
+
+    Hirai_row [shape=point, label=""];
+    Hirai;
+    Hirai_row -- Hirai;
+    { rank=same; Hirai_row; Hirai; }
+
+    RiwaiTuatara_Rawinia -- Hirai_row;
+
+    Noema_row [shape=point, label=""];
+    Noema;
+    Noema_row -- Noema;
+    { rank=same; Noema_row; Noema; }
+
+    Hirai_row -- Noema_row;
+
+    Nellie_row [shape=point, label=""];
+    Nellie;
+    Nellie_row -- Nellie;
+    { rank=same; Nellie_row; Nellie; }
+
+    Noema_row -- Nellie_row;
+
+    JimPuketapu [label="Jim Puketapu"];
+    Nellie -- JimPuketapu [penwidth=3];
+    { rank=same; Nellie; JimPuketapu; }
+
+    HamioraPaenga [label="Hamiora Paenga"];
+    RiwaiTuatara_TeRenia -- HamioraPaenga;
+}
