@@ -116,7 +116,7 @@ WHANAU HUI held at POHATUKURA from the 30th August 1991 to 1st September 1991
 | EMERY Ashley (1-1/2yrs) | 11 Hardie Ave, Kawerau |
 | NGARIMU Makere | 3 Domette St, Kawerau |
 | NGATAI Richard T | 3 Domette St, Kawerau |
-| NGATAI Wihi (7yrs) | | 3 Domette St, Kawerau |
+| NGATAI Wihi (7yrs) | 3 Domette St, Kawerau |
 | NGATAI Saraya (3yrs) | 3 Domette St, Kawerau |
 | UILI Horiana | 25 Atlee Place, Gisborne |
 | UILI Charles | 25 Atlee Place, Gisborne |
