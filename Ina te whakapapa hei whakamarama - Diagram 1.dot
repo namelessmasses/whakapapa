@@ -103,9 +103,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; Tawake, Tawake_Rakaimataura, Rakaimataura };
 
-    empty0 [style=invis];
-
-    Ruawahine -- empty0 -- Tawake_Rakaimataura [style=invis];
+    Ruawahine -- Tawake_Rakaimataura [style=invis,minlen=2];
 
     subgraph cluster_TeKakara {
         TeKakara_Row[shape=point, label=""];
@@ -120,7 +118,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
     TeKakara_Row -- TeKakara -- TeKakara_TeRangiapiti -- TeRangiapiti;
     
     TeRangiherea;
-    TeKakara_TeRangiapiti -- TeRangiherea;
+    TeKakara_TeRangiapiti -- TeRangiherea [weight=10];
 
     TeRangiherea_Hikaraupi [shape=point, label=""];
     Hikaraupi;
@@ -128,7 +126,9 @@ graph Ina_te_whakapapa_hei_whakamarama {
     TeRangiherea -- TeRangiherea_Hikaraupi -- Hikaraupi;
 
     Hinekura;
+    TeRangiherea -- Hinekura [style=invis];
     Takua;
+    Hikaraupi -- Takua [style=invis,weight=10];
 
     TeRangiherea_Hikaraupi -- Hinekura;
     TeRangiherea_Hikaraupi -- Takua;
@@ -151,18 +151,9 @@ graph Ina_te_whakapapa_hei_whakamarama {
     TeKakara_Row -- Roro_row;
 
     TeAningaiao [label="Te Aningaiao (Sister of Kautaharua)"];
-    Roro_TeAningaiao [shape=point, label=""];
     Roro_row -- Roro [constraint=false];
-    Roro -- Roro_TeAningaiao -- TeAningaiao;
+    Roro -- TeAningaiao;
 
-    { rank=same; Roro_row, Roro, Roro_TeAningaiao, TeAningaiao };
-
-    empty1 [style=invis];
-    TeKakara -- empty1 [style=invis];
-
-    empty2 [style=invis];
-    empty1 -- empty2 [style=invis];
-
-    empty2 -- Roro [style=invis];
+    { rank=same; Roro_row, Roro, TeAningaiao };
 
 }
