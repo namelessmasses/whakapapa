@@ -84,13 +84,18 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; Tanekatohia, Ruawahine, Tamakauae };
 
+    Tawhiwhi_row [shape=point, label=""];
     Tawhiwhi;
+    Tawhiwhi_row -- Tawhiwhi;
+    { rank=same; Tawhiwhi_row, Tawhiwhi };
+
+    Mahaki_0_row[shape=point, label=""];
     Mahaki_0 [label="Mahaki"];
+    Mahaki_0_row -- Mahaki_0;
+    { rank=same; Mahaki_0_row, Mahaki_0 };
 
-    { rank=same; Tawhiwhi, Mahaki_0 };
-
-    Tauheikuri_Tamataipunoa -- Tawhiwhi[minlen=2];
-    Tauheikuri_Tamataipunoa -- Mahaki_0[minlen=2];
+    Tauheikuri_Tamataipunoa -- Tawhiwhi_row;
+    Tawhiwhi_row -- Mahaki_0_row;
 
     Tawake;
     Rakaimataura;
@@ -101,38 +106,47 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     Ruawahine -- Tawake_Rakaimataura [style=invis,minlen=2];
 
-    subgraph cluster_TeKakara {
-        TeKakara_Row[shape=point, label=""];
-        TeKakara [label="Te Kakara (f)"];
-    }
+    TeKakara_Row[shape=point, label=""];
+    TeKakara [label="Te Kakara (f)"];
     Tawake_Rakaimataura -- TeKakara_Row;
 
     TeKakara_TeRangiapiti [shape=point, label=""];
-    TeRangiapiti [label="To Rangiapiti (a Mokaituatini, a Ihu)"];
+    TeRangiapiti [label="Te Rangiapiti (a Mokaituatini, a Ihu)"];
 
     { rank=same; TeKakara_Row, TeKakara, TeKakara_TeRangiapiti, TeRangiapiti };
     TeKakara_Row -- TeKakara;
     TeKakara -- TeKakara_TeRangiapiti -- TeRangiapiti[penwidth=3];
     
     TeRangiherea;
-    TeKakara_TeRangiapiti -- TeRangiherea [weight=10];
+    TeKakara_TeRangiapiti -- TeRangiherea;
 
     TeRangiherea_Hikaraupi [shape=point, label=""];
     Hikaraupi;
-    { rank=same; TeRangiherea, TeRangiherea_Hikaraupi, Hikaraupi };
+
     TeRangiherea -- TeRangiherea_Hikaraupi -- Hikaraupi[penwidth=3];
 
-    Hinekura;
-    TeRangiherea -- Hinekura [style=invis];
-    Takua;
-    Hikaraupi -- Takua [style=invis,weight=10];
+    { rank=same; TeRangiherea, TeRangiherea_Hikaraupi, Hikaraupi };
 
-    TeRangiherea_Hikaraupi -- Hinekura;
-    TeRangiherea_Hikaraupi -- Takua;
+    Hinekura_row [shape=point, label=""];
+    Hinekura;
+    Hinekura_row -- Hinekura;
+    Mahaki_1 [label="Mahaki"];
+    Hinekura -- Mahaki_1 [penwidth=3];
+    { rank=same; Hinekura_row, Hinekura, Mahaki_1 }
+
+    TeRangiherea_Hikaraupi -- Hinekura_row;
+
+    Takua_row [shape=point, label=""];
+    Takua;
+    Takua_row -- Takua;
+    { rank=same; Takua_row, Takua };
+
+    Hinekura_row -- Takua_row;
 
     Karakapipi;
     Takua_Karakapipi [shape=point, label=""];
     Takua -- Takua_Karakapipi -- Karakapipi[penwidth=3];
+    { rank=same; Takua, Takua_Karakapipi, Karakapipi };
 
     Hinepaka;
     Takua_Karakapipi -- Hinepaka;
@@ -141,28 +155,17 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; Hinepaka, Rahuiokehu_0 };
 
-    Mahaki_1 [label="Mahaki"];
-    Mahaki_1 -- Hinekura[penwidth=3];
-    Hinekura -- Takua [style=invis];
-    
-    { rank=same; Mahaki_1, Hinekura, Takua, Takua_Karakapipi, Karakapipi };
+    Roro_row [shape=point, label=""];
+    Roro [label="Roro (m)"];
 
-    subgraph cluster_Roro {
-        Roro_row [shape=point, label=""];
-        Roro [label="Roro (m)"];
-    }
-
-    TeKakara_Row -- Roro_row;
+    TeKakara_Row -- Roro_row[minlen=5];
+    TeKakara -- Roro[style=invis];
 
     TeAningaiao [label="Te Aningaiao (Sister of Kautaharua)"];
     Roro_row -- Roro;
     Roro -- TeAningaiao[penwidth=3];
 
     { rank=same; Roro_row, Roro, TeAningaiao };
-
-    TeKakara -- Mahaki_1 [style=invis,minlen=2];
-
-    Mahaki_1 -- Roro [style=invis,minlen=2];
 
     Rakaihoea_row [shape=point, label=""];
     Roro_row -- Rakaihoea_row;
@@ -176,25 +179,30 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; Rakaihoea_row, Rakaihoea, Rakaihoea_Rongomaiirikura, Rongomaiirikura };
 
+    Mahaki_2_row [shape=point, label=""];
     Mahaki_2 [label="Mahaki"];
+    Mahaki_2_row -- Mahaki_2;
+    { rank=same; Mahaki_2_row, Mahaki_2 };
+
+    Tupore_row [shape=point, label=""];
     Tupore;
+    Tupore_row -- Tupore;
+    { rank=same; Tupore_row, Tupore };
+
+    Rahuiokehu_1_row [shape=point, label=""];
     Rahuiokehu_1 [label="Rahuiokehu"];
+    Rahuiokehu_1_row -- Rahuiokehu_1;
+    { rank=same; Rahuiokehu_1_row, Rahuiokehu_1 };
 
-    Rakaihoea_Rongomaiirikura -- Mahaki_2;
-    Rakaihoea_Rongomaiirikura -- Tupore;
-    Rakaihoea_Rongomaiirikura -- Rahuiokehu_1;
+    Rakaihoea_Rongomaiirikura -- Mahaki_2_row;
+    Mahaki_2_row -- Tupore_row;
+    Tupore_row -- Rahuiokehu_1_row;
 
-    { rank=same; Mahaki_2, Tupore, Rahuiokehu_1 };
+    Rakaihoea_row -- Paku_row[minlen=4];
 
     Paku_row [shape=point, label=""];
-
-    Rakaihoea -- Mahaki_2 [style=invis];
-
-    Rakaihoea_row -- Paku_row[weight=10];
-
     Paku [label="Paku (m)"];
     Paku_row -- Paku;
-    Mahaki_2 -- Paku [style=invis];
 
     Tauatiraroa;
 
