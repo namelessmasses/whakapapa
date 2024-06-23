@@ -1,0 +1,235 @@
+graph page8a {
+    node [shape=plaintext];
+
+    MahutaiteRangi_row [shape=point, label=""];
+    MahutaiteRangi [label="Mahuta i te Rangi"];
+    MahutaiteRangi_row -- MahutaiteRangi;
+    { rank=same; MahutaiteRangi_row; MahutaiteRangi; }
+
+    TeAnaupare [label="Te Anaupare"];
+    MahutaiteRangi_TeAnaupare [shape=point, label=""];
+    MahutaiteRangi -- MahutaiteRangi_TeAnaupare -- TeAnaupare[penwidth=3];
+    {rank=same; MahutaiteRangi; MahutaiteRangi_TeAnaupare; TeAnaupare;}
+
+    Tarawhakatea_row [shape=point, label=""];
+    Tarawhakatea [label="Tarawhakatea"];
+    Tarawhakatea_row -- Tarawhakatea;
+    { rank=same; Tarawhakatea_row; Tarawhakatea; }
+
+    MahutaiteRangi_row -- Tarawhakatea_row;
+
+    TePaeHakaHaka_row [shape=point, label=""];
+    TePaeHakaHaka [label="Te Pae HakaHaka"];
+    TePaeHakaHaka_row -- TePaeHakaHaka;
+    { rank=same; TePaeHakaHaka_row; TePaeHakaHaka; }
+
+    Tarawhakatea_row -- TePaeHakaHaka_row[weight=10];
+
+    TeKaingaki_row [shape=point, label=""];
+    TeKaingaki [label="Te Kaingaki"];
+    TeKaingaki_row -- TeKaingaki;
+    { rank=same; TeKaingaki_row; TeKaingaki; }
+
+    TePaeHakaHaka_row -- TeKaingaki_row;
+
+    Hinekahukirangi_branch [shape=point, label=""];
+    {rank=same; Tarawhakatea_row; Hinekahukirangi_branch;}
+    Hinekahukirangi;
+    Hinekahukirangi_branch -- Hinekahukirangi[minlen=3, weight=10];
+    
+    Hinekahukirangi_branch -- Tarawhakatea_row;
+
+    Hinekahukirangi_Kahuirangi [shape=point, label=""];
+    Kahuirangi;
+    Hinekahukirangi -- Hinekahukirangi_Kahuirangi -- Kahuirangi[penwidth=3];
+    {rank=same; Hinekahukirangi; Hinekahukirangi_Kahuirangi; Kahuirangi;}
+
+    Ihukino_row [shape=point, label=""];
+    Ihukino [label="Ihukino"];
+    Ihukino_row -- Ihukino;
+    { rank=same; Ihukino_row; Ihukino; }
+
+    Hinekahukirangi_Kahuirangi -- Ihukino_row;
+
+    Hineputaru_row [shape=point, label=""];
+    Hineputaru [label="Hineputaru"];
+    Hineputaru_row -- Hineputaru;
+    { rank=same; Hineputaru_row; Hineputaru; }
+
+    Ihukino_row -- Hineputaru_row;
+
+    Turuhira_row [shape=point, label=""];
+    Turuhira [label="Turuhira"];
+    Turuhira_row -- Turuhira;
+    { rank=same; Turuhira_row; Turuhira; }
+
+    Hineputaru_row -- Turuhira_row;
+
+    Hamiora_row [shape=point, label=""];
+    Hamiora [label="Hamiora"];
+    Hamiora_row -- Hamiora;
+    { rank=same; Hamiora_row; Hamiora; }
+
+    Turuhira_row -- Hamiora_row;
+
+    TutaNgarimu_row [shape=point, label=""];
+    TutaNgarimu [label="Tuta Ngarimu"];
+    TutaNgarimu_row -- TutaNgarimu;
+    { rank=same; TutaNgarimu_row; TutaNgarimu; }
+
+    Hamiora_row -- TutaNgarimu_row;
+
+    Maraea_0_row [shape=point, label=""];
+    Maraea_0 [label="Maraea"];
+    Maraea_0_row -- Maraea_0;
+    { rank=same; Maraea_0_row; Maraea_0; }
+
+    TutaNgarimu_row -- Maraea_0_row;
+
+    HamueraMeketu [label="Hamuera Meketu"];
+    Maraea_HamueraMeketu [shape=point, label=""];
+    Maraea_0 -- Maraea_HamueraMeketu -- HamueraMeketu[penwidth=3];
+    {rank=same; Maraea_0; Maraea_HamueraMeketu; HamueraMeketu;}
+
+    NgarangiNgarimu_row [shape=point, label=""];
+    NgarangiNgarimu [label="Ngarangi Ngarimu"];
+    NgarangiNgarimu_row -- NgarangiNgarimu;
+    { rank=same; NgarangiNgarimu_row; NgarangiNgarimu; }
+
+    Maraea_HamueraMeketu -- NgarangiNgarimu_row;
+
+    KAkuhata_row [shape=point, label=""];
+    KAkuhata [label="K. Akuhata"];
+    KAkuhata_row -- KAkuhata;
+    { rank=same; KAkuhata_row; KAkuhata; }
+
+    NgarangiNgarimu_row -- KAkuhata_row;
+
+    TuatahiOMania_row [shape=point, label=""];
+    TuatahiOMania [label="Tuatahi o Mania"];
+    TuatahiOMania_row -- TuatahiOMania;
+    { rank=same; TuatahiOMania_row; TuatahiOMania; }
+
+    Maraea_0_row -- TuatahiOMania_row[minlen=3];
+
+    WiremuKingi_row [shape=point, label=""];
+    WiremuKingi [label="Wiremu Kingi"];
+    WiremuKingi_row -- WiremuKingi;
+    { rank=same; WiremuKingi_row; WiremuKingi; }
+
+    TuatahiOMania_row -- WiremuKingi_row;
+
+    PetaMarukitepua_row [shape=point, label=""];
+    PetaMarukitepua [label="Peta Marukitepua"];
+    PetaMarukitepua_row -- PetaMarukitepua;
+    { rank=same; PetaMarukitepua_row; PetaMarukitepua; }
+
+    WiremuKingi_row -- PetaMarukitepua_row;
+
+    PinihaMaru_row [shape=point, label=""];
+    PinihaMaru [label="Piniha Maru"];
+    PinihaMaru_row -- PinihaMaru;
+    { rank=same; PinihaMaru_row; PinihaMaru; }
+
+    PetaMarukitepua_row -- PinihaMaru_row;
+
+    PinihaMaru_RawiniaKaiwai_marriage_branch [shape=point, label=""];
+    PinihaMaru -- PinihaMaru_RawiniaKaiwai_marriage_branch[penwidth=3];
+    
+    PinihaMaru_HorianaTamati_marriage_branch [shape=point, label=""];
+    PinihaMaru_RawiniaKaiwai_marriage_branch -- PinihaMaru_HorianaTamati_marriage_branch[penwidth=3];
+    
+    {rank=same; PinihaMaru; PinihaMaru_RawiniaKaiwai_marriage_branch; PinihaMaru_HorianaTamati_marriage_branch;}
+
+    PinihaMaru_RawiniaKaiwai_marriage [shape=point, label=""];
+    PinihaMaru_RawiniaKaiwai_marriage_branch -- PinihaMaru_RawiniaKaiwai_marriage[penwidth=3,weight=10];
+    PinihaMaru_RawiniaKaiwai [shape=point, label=""];
+    RawiniaKaiwai [label="Rawinia Kaiwai"];
+    PinihaMaru_RawiniaKaiwai_marriage -- PinihaMaru_RawiniaKaiwai -- RawiniaKaiwai[penwidth=3];
+    {rank=same; PinihaMaru_RawiniaKaiwai_marriage; PinihaMaru_RawiniaKaiwai; RawiniaKaiwai;}
+    
+    PinihaMaru_HorianaTamati_marriage [shape=point, label=""];
+    PinihaMaru_HorianaTamati_marriage_branch -- PinihaMaru_HorianaTamati_marriage[penwidth=3,weight=10];
+    PinihaMaru_HorianaTamati [shape=point, label=""];
+    HorianaTamati [label="Horiana Tamati"];
+    PinihaMaru_HorianaTamati_marriage -- PinihaMaru_HorianaTamati -- HorianaTamati[penwidth=3];
+    {rank=same; PinihaMaru_HorianaTamati_marriage; PinihaMaru_HorianaTamati; HorianaTamati;}
+
+    HenareTukino [label="Henare Tukino"];
+    PinihaMaru_RawiniaKaiwai -- HenareTukino;
+
+    PururangiMaakaBeritane [label="*Pururangi Maaka Beritane"];
+    HenareTukino_PururangiMaakaBeritane [shape=point, label=""];
+    PururangiMaakaBeritane -- HenareTukino_PururangiMaakaBeritane -- HenareTukino[penwidth=3];
+    {rank=same; HenareTukino; HenareTukino_PururangiMaakaBeritane; PururangiMaakaBeritane;}
+
+    HinemaureaaHamuera [label="Hinemaurea a Hamuera (whangai)"];
+    PinihaMaru_HorianaTamati -- HinemaureaaHamuera;
+
+    WaihukaMaru_row [shape=point, label=""];
+    WaihukaMaru [label="Waihuka Maru"];
+    WaihukaMaru_row -- WaihukaMaru;
+    { rank=same; WaihukaMaru_row; WaihukaMaru; }
+
+    HenareTukino_PururangiMaakaBeritane -- WaihukaMaru_row;
+
+    WaihukaMaru_MatiuWiki [shape=point, label=""];
+    MatiuWiki [label="Matiu Wiki"];
+    WaihukaMaru -- WaihukaMaru_MatiuWiki -- MatiuWiki[penwidth=3];
+    {rank=same; WaihukaMaru; WaihukaMaru_MatiuWiki; MatiuWiki;}
+
+    meonataina [label="me ona taina"];
+
+    WaihukaMaru_MatiuWiki -- meonataina;
+
+    AldershotBeritane_row [shape=point, label=""];
+    AldershotBeritane [label="Aldershot Beritane (Whangapirita)"];
+    AldershotBeritane_row -- AldershotBeritane;
+    { rank=same; AldershotBeritane_row; AldershotBeritane; }
+
+    WaihukaMaru_row -- AldershotBeritane_row[minlen=2];
+
+    AldershotBeritane_JacquelineBaker [shape=point, label=""];
+    JacquelineBaker [label="Jacqueline Baker"];
+    AldershotBeritane -- AldershotBeritane_JacquelineBaker -- JacquelineBaker[penwidth=3];
+    {rank=same; AldershotBeritane; AldershotBeritane_JacquelineBaker; JacquelineBaker;}
+
+    Joanna;
+
+    AldershotBeritane_JacquelineBaker -- Joanna;
+
+    Hineaute_row [shape=point, label=""];
+    Hineaute [label="Hineaute"];
+    Hineaute_row -- Hineaute;
+    { rank=same; Hineaute_row; Hineaute; }
+
+    PinihaMaru_row -- Hineaute_row[minlen=7, weight=10];
+
+    Miriama_row [shape=point, label=""];
+    Miriama [label="Miriama"];
+    Miriama_row -- Miriama;
+    { rank=same; Miriama_row; Miriama; }
+
+    Hineaute_row -- Miriama_row;
+
+    Maraea_1_row [shape=point, label=""];
+    Maraea_1 [label="Maraea"];
+    Maraea_1_row -- Maraea_1;
+    { rank=same; Maraea_1_row; Maraea_1; }
+
+    Miriama_row -- Maraea_1_row;
+
+    Petuere_row [shape=point, label=""];
+    Petuere [label="Petuere"];
+    Petuere_row -- Petuere;
+    { rank=same; Petuere_row; Petuere; }
+
+    Maraea_row -- Petuere_row;
+
+    PetaAwatere_row [shape=point, label=""];
+    PetaAwatere [label="Peta Awatere"];
+    PetaAwatere_row -- PetaAwatere;
+    { rank=same; PetaAwatere_row; PetaAwatere; }
+
+    Petuere_row -- PetaAwatere_row;
+}
