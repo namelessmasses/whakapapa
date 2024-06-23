@@ -23,7 +23,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
     Kahukuratamahoka -- kahukuramamangu;
     kahukuramamangu -- Kahukuraporo;
 
-    Pipi -- Irakaiputahi[];
+    Pipi -- Irakaiputahi[penwidth=3];
 
     Iwipupu;
     Tamatea;
@@ -44,8 +44,8 @@ graph Ina_te_whakapapa_hei_whakamarama {
         Kahukuratamahoka;
     }
 
-    Irakaiputahi -- Irakaiputahi_TokerauWahine -- TokerauWahine;
-    Iwipupu -- Iwipupu_Tamatea -- Tamatea;
+    Irakaiputahi -- Irakaiputahi_TokerauWahine -- TokerauWahine [penwidth=3];
+    Iwipupu -- Iwipupu_Tamatea -- Tamatea[penwidth=3];
     Irakaiputahi_TokerauWahine -- Iwipupu_Tamatea;
 
     { rank=same; Pipi, Irakaiputahi, Irakaiputahi_TokerauWahine, TokerauWahine };
@@ -57,7 +57,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; kahukuramamangu, Kahungunu, Rongomaiwahine };
 
-    Kahungunu -- Rongomaiwahine;
+    Kahungunu -- Rongomaiwahine[penwidth=3];
     
     Pakaariki [label="Paka-ariki"];
     Kuratau;
@@ -68,7 +68,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
     Tamataipunoa;
     Tauheikuri_Tamataipunoa [shape=point, label=""];
 
-    Tauheikuri -- Tauheikuri_Tamataipunoa -- Tamataipunoa;
+    Tauheikuri -- Tauheikuri_Tamataipunoa -- Tamataipunoa [penwidth=3];
 
     { rank=same; Pakaariki, Pakaariki_Kuratau, Kuratau, Tauheikuri, Tauheikuri_Tamataipunoa, Tamataipunoa };
 
@@ -84,22 +84,18 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     { rank=same; Tanekatohia, Ruawahine, Tamakauae };
 
-    Tauheikuri_Tamataipunoa_Children [shape=point, label=""];
-
-    Tauheikuri_Tamataipunoa -- Tauheikuri_Tamataipunoa_Children;
-
     Tawhiwhi;
     Mahaki_0 [label="Mahaki"];
 
     { rank=same; Tawhiwhi, Mahaki_0 };
 
-    Tauheikuri_Tamataipunoa_Children -- Tawhiwhi;
-    Tauheikuri_Tamataipunoa_Children -- Mahaki_0;
+    Tauheikuri_Tamataipunoa -- Tawhiwhi[minlen=2];
+    Tauheikuri_Tamataipunoa -- Mahaki_0[minlen=2];
 
     Tawake;
     Rakaimataura;
     Tawake_Rakaimataura [shape=point, label=""];
-    Tawake -- Tawake_Rakaimataura -- Rakaimataura;
+    Tawake -- Tawake_Rakaimataura -- Rakaimataura[penwidth=3];
 
     { rank=same; Tawake, Tawake_Rakaimataura, Rakaimataura };
 
@@ -115,7 +111,8 @@ graph Ina_te_whakapapa_hei_whakamarama {
     TeRangiapiti [label="To Rangiapiti (a Mokaituatini, a Ihu)"];
 
     { rank=same; TeKakara_Row, TeKakara, TeKakara_TeRangiapiti, TeRangiapiti };
-    TeKakara_Row -- TeKakara -- TeKakara_TeRangiapiti -- TeRangiapiti;
+    TeKakara_Row -- TeKakara;
+    TeKakara -- TeKakara_TeRangiapiti -- TeRangiapiti[penwidth=3];
     
     TeRangiherea;
     TeKakara_TeRangiapiti -- TeRangiherea [weight=10];
@@ -123,7 +120,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
     TeRangiherea_Hikaraupi [shape=point, label=""];
     Hikaraupi;
     { rank=same; TeRangiherea, TeRangiherea_Hikaraupi, Hikaraupi };
-    TeRangiherea -- TeRangiherea_Hikaraupi -- Hikaraupi;
+    TeRangiherea -- TeRangiherea_Hikaraupi -- Hikaraupi[penwidth=3];
 
     Hinekura;
     TeRangiherea -- Hinekura [style=invis];
@@ -135,17 +132,17 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     Karakapipi;
     Takua_Karakapipi [shape=point, label=""];
-    Takua -- Takua_Karakapipi -- Karakapipi;
+    Takua -- Takua_Karakapipi -- Karakapipi[penwidth=3];
 
     Hinepaka;
     Takua_Karakapipi -- Hinepaka;
     Rahuiokehu_0 [label="Rahuiokehu"];
-    Hinepaka -- Rahuiokehu_0;
+    Hinepaka -- Rahuiokehu_0[penwidth=3];
 
     { rank=same; Hinepaka, Rahuiokehu_0 };
 
     Mahaki_1 [label="Mahaki"];
-    Mahaki_1 -- Hinekura;
+    Mahaki_1 -- Hinekura[penwidth=3];
     Hinekura -- Takua [style=invis];
     
     { rank=same; Mahaki_1, Hinekura, Takua, Takua_Karakapipi, Karakapipi };
@@ -158,8 +155,8 @@ graph Ina_te_whakapapa_hei_whakamarama {
     TeKakara_Row -- Roro_row;
 
     TeAningaiao [label="Te Aningaiao (Sister of Kautaharua)"];
-    Roro_row -- Roro [constraint=false];
-    Roro -- TeAningaiao;
+    Roro_row -- Roro;
+    Roro -- TeAningaiao[penwidth=3];
 
     { rank=same; Roro_row, Roro, TeAningaiao };
 
@@ -174,7 +171,8 @@ graph Ina_te_whakapapa_hei_whakamarama {
     Rakaihoea_Rongomaiirikura [shape=point, label=""];
 
     Rongomaiirikura [label="Rongomaiirikura (no Turanga)"];
-    Rakaihoea_row -- Rakaihoea -- Rakaihoea_Rongomaiirikura -- Rongomaiirikura;
+    Rakaihoea_row -- Rakaihoea;
+    Rakaihoea -- Rakaihoea_Rongomaiirikura -- Rongomaiirikura[penwidth=3];
 
     { rank=same; Rakaihoea_row, Rakaihoea, Rakaihoea_Rongomaiirikura, Rongomaiirikura };
 
@@ -200,7 +198,7 @@ graph Ina_te_whakapapa_hei_whakamarama {
 
     Tauatiraroa;
 
-    Paku -- Tauatiraroa [  ];
+    Paku -- Tauatiraroa [penwidth=3];
 
     { rank=same; Paku_row, Paku, Tauatiraroa };
 }
