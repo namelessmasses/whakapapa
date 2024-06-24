@@ -7,4 +7,4 @@ The script will search for the `dot` executable. If one can't be found, it will 
 
 # Read on...
 
-[Begin reading...](./Ina te whakapapa hei whakamararma.md)
+[Begin reading...](<Pohatukura Whanau Whakapapa.md>)

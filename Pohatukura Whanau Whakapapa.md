@@ -163,7 +163,7 @@ Mo tona wahine mo Te Aningaiao taua kupu a haere hapu ana hoki. To ratau ope ko 
 
 Ina te whakapapa hei whakamarama:-
 
-![Ina te whakapapa hei whakamarama]("Ina te whakapapa hei whakamarama - Diagram 1.png")
+![Ina te whakapapa hei whakamarama](<Ina te whakapapa hei whakamarama - Diagram 1.dot.png>)
 
 Ka marama i konei ko Roro me tona ope no Ngatiira tetahi taha nui, no Turanga tetahi taha nui. Ko to ratau taha nui ki Waiapu nei kei a Rakaimataura. Ko Te Aningaiao te wahine a Roro na Te Aomihia a Ngatihau raua ko Kahupakari a Materoa. Ka tae mai a Roro ma ki Waiapu nei ka noho i te pa i Koputerehu. Ka whanau te tamaiiti a Te Hukui. Ka tae te rongo kia Ngatiira ka whakatika mai a Ngatiira ka haramai a Ngatiira a ka tutuki mai ki a Roro me the Kaihinu. Ko etahi korero ko te Kaihinu nei i tu ki rawahi o Waiapu ki Turitaka,  i reira te pa o Roro. Ko Matohuarau te ingoa o te whare o Roro, i whakawharonatia ai taua Kaihinu.
 
