@@ -169,7 +169,7 @@ Ka marama i konei ko Roro me tona ope no Ngatiira tetahi taha nui, no Turanga te
 
 ## Notable Addition
 
-- Te Kauru Taki o te Rangi - see https://nzhistory.govt.nz/politics/treaty/signatory/9-33
+- Te Kauru Taki o te Rangi[^1]: https://nzhistory.govt.nz/politics/treaty/signatory/9-33
 - Rakaimataura was the son of Tamataua. 
     - Tamataua is the son of Rongomaianiwaniwa. 
     - Rongomaianiwaniwa is the only daughter of Porourangi. 
