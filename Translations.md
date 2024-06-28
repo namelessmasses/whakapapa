@@ -1,3 +1,5 @@
+
+
 # ChatGPT
 
 The following translations were made using ChatGPT-4o. 
@@ -17,7 +19,7 @@ Ka marama i konei ko Roro me tona ope no Ngatiira tetahi taha nui, no Turanga te
 
 Ka taha mai a Ngatiira tera ka kitea e Rangirakaikura i tona pa i Pohatukura (kei runga ake o Kaharau). I haramai tonu hoki te ope ma Orurur ka maro tone ake ma raro i tona pa, kaore i peka. Ka pa te kino kia Rangirakaikura, mo te hakeretanga i nga hinu i a ia. Ka whakatakoto ia i tona khakaaro mo te hokinga atu o te ope ra i Waiapu nei. Ka hangaia e ia tona wharau, ka tapa te ingoa ko Tapaturauaruhe - he mea tapatu ki te rauaruhe kia wawe te kopi a runga, kaore i taea te uhi ki te toetoe. Kei waho mai o Oruru taua wharau kei te takiwa ki Otakehia. Ka whakamanuhiritia a Ngatiira i roto i te wharau ra - no te atapo ka patua, ka whati te iwi ra, ka patua haeretia. Na nga morehu i kawe te korero ki muri.
 
-Ka tae mai to rongo ki Waiapu ne kia Roro ma, ka whakatakaia te ope, Ka haera ko Roro me Rakaihoea me Ngatiporou. Ka tae ki Makaraka ke ko atu o Mangahanea ka tutaki kia Te Hekeroa te taina o Te Rangirakaikura, ka patua, ka mate, E kiia ana he pa ano i reira, a, i whakaekae. Ka haere atu i kona ki Waitetoki ka whakaeke te pa i runga ake o Waitotoki i te takiwa o Pakuri, ko Tarakihitapia te ingoa. Ka mate te pa me nga tangata o roto. Ko hoki mai te ope, ko ta Roro ngakinga mate tena mo te kohuru.
+Ka tae mai to rongo ki Waiapu ne kia Roro ma, ka whakatakaia te ope, Ka haera ko Roro me Rakaihoea me Ngatiporou. Ka tae ki Makaraka ke ko atu o Mangahanea ka tutaki kia Te Hekeroa te taina o Te Rangirakaikura, ka patua, ka mate, E kiia ana he pa ano i reira, a, i whakaekae. Ka haere atu i kona ki Waitetoki ka whakaeke te pa i runga ake o Waitotoki i te takiwa o Pakuri, ko Tarakihitapia te ingoa. Ka mate te pa me nga tangata o roto. Ko hoki mai te ope, ko ta Roro ngakinga mate[^1] tena mo te kohuru.
 
 Ka tae ra te rongo kia Ngatiira ka harmai te ope, ko Tauira te rangatira. Ka whakaekea e to ope to pa o Rangirakaikura a Potahukura rokohanga aut he whaine anake nga tangata. Ko Rangirakaikura ratau ko nga tamariki i ro ngahere ke. Ka riro herehere nga wahine o te pa nei, a Rautu me ona tamariki me Raukohe raua ko Raumarie, ka mauria e Ngatiira. Hoki rawa mai a Rangakaikura kua riro te ope me nga whaine ra. a whaia e ratau. Ka haere a Ngatiira a ka tae ki Omanuka, kei tua atu o Marahea, kei ko mai o Anaura, kei te taha moana. Ka taha atu o Marahea, ke ko mai o Anaura, kei te taha moana. Ka tata atu tera ki o ratau kainga, ka mea te iwi ra kia patua a ratau kai, nga wahinei mau herehere ra. Ka tahuna nga umu, ka ka. Ka pae nga whariki. Ka tata te we hei patunga, ka kitea atu et te wahine ra e Rautu a Rangirakaikura i mohiotia atu i Te Kakahu. Ko Rangirakaikura i te hiwi i Tirohaupo kei rareo a Omanuka. Ka ki atu te wahine ra ki a Ngatiira, “Taihoa e patu ia matau, kia haka matau kia koutou.” Ka hopu ratau ki nga whariki ki o ratau ringiringa, ka huri haere i te umu. Ko te ringa o ta ratau haka he pohiri, ko kitea mai ai e Rangirakaikura. Nawai ra ka makere nga kakahu o nga wahine, ka tu tahanga, me te tawhi tonu nga ringa. Ko te hake tenei:-
 
@@ -59,8 +61,8 @@ When Ngatiira arrived, they were seen by Rangirakaikura from his village at Poha
 
 When news reached Waiapu, Roro and his group prepared for action. Roro, Rakaihoea, and Ngatiporou set out. They arrived at Makaraka, beyond Mangahanea, and encountered Te Hekeroa, the younger brother of Te Rangirakaikura. Te Hekeroa was killed. It is said there was a village there which was attacked. They then moved on to Waitetoki and attacked the village above Waitetoki in the Pakuri area, named Tarakihitapia. The village and its inhabitants were killed. The group returned, and this was Roro’s retribution for the murder.
 
-(Note: “Ngakinga mate” refers to the act of avenging a death.)
-
+[^1]: “Ngakinga mate” refers to the act of avenging a death.
+ 
 When news reached Ngatiira, a group led by Tauira set out. They attacked Rangirakaikura’s village, Pohatukura, finding only the women and children there. Rangirakaikura and his children were in the forest. The women of the village, including Rautu and her children Raukohe and Raumarie, were taken captive by Ngatiira. When Rangirakaikura returned, he found that the group and the women had been taken. They pursued them.
 
 Ngatiira traveled to Omanuka, beyond Marahea and closer to Anaura by the coast. As they approached their homes, the group decided to cook food and the captive women. They lit the ovens and prepared mats. As they were about to kill the women, Rautu recognized Rangirakaikura’s garment from afar. Rangirakaikura was on a ridge at Tirohaupo near Omanuka. The woman said to Ngatiira, “Wait, do not kill us, let us perform a haka for you.” They picked up the mats with their hands and danced around the oven. The gesture of their haka was a signal to Rangirakaikura. Eventually, the women’s clothes fell off, and they stood naked, waving their arms. The haka went like this:
