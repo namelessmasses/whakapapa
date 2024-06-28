@@ -173,9 +173,10 @@ Ka marama i konei ko Roro me tona ope no Ngatiira tetahi taha nui, no Turanga te
 - Rakaimataura was the son of Tamataua. 
     - Tamataua is the son of Rongomaianiwaniwa. 
     - Rongomaianiwaniwa is the only daughter of Porourangi. 
-    - https://www.geni.com/people/Rākairoa-I/6000000085707077964 “Te Aokairau married Tamataua who was a descendant of Rongomaia-niwaniwa, the only daughter of Porourangi. Their children included Hinepare, Huanga, Putaanga and Rākaimataura…”
+    - Te Aokairau married Tamataua who was a descendant of Rongomaia-niwaniwa, the only daughter of Porourangi. Their children included Hinepare, Huanga, Putaanga and Rākaimataura…[^2]
 
 [^1]: https://nzhistory.govt.nz/politics/treaty/signatory/9-33
+[^2]: https://www.geni.com/people/Rākairoa-I/6000000085707077964
 
 # 5a
 
